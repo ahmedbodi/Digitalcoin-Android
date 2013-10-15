@@ -1,0 +1,5 @@
+#surefire
+#Sun Oct 06 03:13:10 BST 2013
+user.dir=/home/ahmedbodi/workspace/digitalcoin-wallet/digitalcoinj/core
+localRepository=/home/ahmedbodi/.m2/repository
+basedir=/home/ahmedbodi/workspace/digitalcoin-wallet/digitalcoinj/core

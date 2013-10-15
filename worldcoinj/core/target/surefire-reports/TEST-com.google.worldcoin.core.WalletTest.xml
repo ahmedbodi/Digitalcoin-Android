@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="57.86" errors="1" skipped="0" tests="33" name="com.google.digitalcoin.core.WalletTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.0-b12"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ahmedbodi/workspace/digitalcoin-wallet/digitalcoinj"/>
+    <property name="java.runtime.version" value="1.6.0_27-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="3.2.0-4-686-pae"/>
+    <property name="user.home" value="/home/ahmedbodi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="ahmedbodi"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="2.054" classname="com.google.digitalcoin.core.WalletTest" name="transactions"/>
+  <testcase time="1.661" classname="com.google.digitalcoin.core.WalletTest" name="basicSpending"/>
+  <testcase time="1.527" classname="com.google.digitalcoin.core.WalletTest" name="basicSpendingWithEncryptedWallet"/>
+  <testcase time="1.607" classname="com.google.digitalcoin.core.WalletTest" name="basicSpendingWithEncryptedHetergeneousWallet"/>
+  <testcase time="1.367" classname="com.google.digitalcoin.core.WalletTest" name="customTransactionSpending"/>
+  <testcase time="1.359" classname="com.google.digitalcoin.core.WalletTest" name="sideChain"/>
+  <testcase time="1.466" classname="com.google.digitalcoin.core.WalletTest" name="balance"/>
+  <testcase time="1.54" classname="com.google.digitalcoin.core.WalletTest" name="blockChainCatchup"/>
+  <testcase time="1.344" classname="com.google.digitalcoin.core.WalletTest" name="balances"/>
+  <testcase time="1.285" classname="com.google.digitalcoin.core.WalletTest" name="isConsistent_duplicates"/>
+  <testcase time="1.36" classname="com.google.digitalcoin.core.WalletTest" name="isConsistent_pools"/>
+  <testcase time="1.351" classname="com.google.digitalcoin.core.WalletTest" name="isConsistent_spent"/>
+  <testcase time="1.905" classname="com.google.digitalcoin.core.WalletTest" name="doubleSpendUnspendsOtherInputs"/>
+  <testcase time="1.584" classname="com.google.digitalcoin.core.WalletTest" name="doubleSpendFinneyAttack"/>
+  <testcase time="1.442" classname="com.google.digitalcoin.core.WalletTest" name="pending1"/>
+  <testcase time="1.414" classname="com.google.digitalcoin.core.WalletTest" name="pending2"/>
+  <testcase time="1.321" classname="com.google.digitalcoin.core.WalletTest" name="pending3"/>
+  <testcase time="1.415" classname="com.google.digitalcoin.core.WalletTest" name="transactionsList"/>
+  <testcase time="1.293" classname="com.google.digitalcoin.core.WalletTest" name="keyCreationTime"/>
+  <testcase time="1.365" classname="com.google.digitalcoin.core.WalletTest" name="spendToSameWallet"/>
+  <testcase time="1.417" classname="com.google.digitalcoin.core.WalletTest" name="rememberLastBlockSeenHash"/>
+  <testcase time="1.399" classname="com.google.digitalcoin.core.WalletTest" name="pubkeyOnlyScripts"/>
+  <testcase time="1.64" classname="com.google.digitalcoin.core.WalletTest" name="autosaveImmediate"/>
+  <testcase time="2.619" classname="com.google.digitalcoin.core.WalletTest" name="autosaveDelayed"/>
+  <testcase time="1.62" classname="com.google.digitalcoin.core.WalletTest" name="spendOutputFromPendingTransaction"/>
+  <testcase time="1.486" classname="com.google.digitalcoin.core.WalletTest" name="replayWhilstPending"/>
+  <testcase time="4.89" classname="com.google.digitalcoin.core.WalletTest" name="encryptionDecryptionBasic"/>
+  <testcase time="1.781" classname="com.google.digitalcoin.core.WalletTest" name="encryptionDecryptionBadPassword"/>
+  <testcase time="2.465" classname="com.google.digitalcoin.core.WalletTest" name="encryptionDecryptionCheckExceptions"/>
+  <testcase time="1.882" classname="com.google.digitalcoin.core.WalletTest" name="encryptionDecryptionHomogenousKeys">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at org.digitalcoinj.wallet.Protos$ScryptParameters.internalGetFieldAccessorTable(Protos.java:5455)
+	at com.google.protobuf.GeneratedMessage.getDescriptorForType(GeneratedMessage.java:97)
+	at com.google.protobuf.AbstractMessage.equals(AbstractMessage.java:160)
+	at com.google.common.base.Objects.equal(Objects.java:58)
+	at com.google.digitalcoin.crypto.KeyCrypterScrypt.equals(KeyCrypterScrypt.java:255)
+	at com.google.digitalcoin.core.Wallet.addKeys(Wallet.java:2048)
+	at com.google.digitalcoin.core.Wallet.addKey(Wallet.java:2027)
+	at com.google.digitalcoin.core.WalletTest.encryptionDecryptionHomogenousKeys(WalletTest.java:1186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+Caused by: java.lang.IllegalArgumentException: Failed to parse protocol buffer descriptor for generated code.
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:286)
+	at org.digitalcoinj.wallet.Protos.&lt;clinit&gt;(Protos.java:8444)
+	... 38 more
+Caused by: com.google.protobuf.InvalidProtocolBufferException: Protocol message end-group tag did not match expected tag.
+	at com.google.protobuf.InvalidProtocolBufferException.invalidEndTag(InvalidProtocolBufferException.java:73)
+	at com.google.protobuf.CodedInputStream.checkLastTagWas(CodedInputStream.java:124)
+	at com.google.protobuf.AbstractMessageLite$Builder.mergeFrom(AbstractMessageLite.java:163)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:716)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:238)
+	at com.google.protobuf.AbstractMessageLite$Builder.mergeFrom(AbstractMessageLite.java:153)
+	at com.google.protobuf.AbstractMessage$Builder.mergeFrom(AbstractMessage.java:709)
+	at com.google.protobuf.DescriptorProtos$FileDescriptorProto.parseFrom(DescriptorProtos.java:1013)
+	at com.google.protobuf.Descriptors$FileDescriptor.internalBuildGeneratedFileFrom(Descriptors.java:284)
+	... 39 more
+</error>
+    <system-err>11:15:05 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 34bc70734305ee2f4c80963445227a14eb931df2ea77034a21ba84f0f66fe6f0
+   time: [1381054453] Sun Oct 06 11:14:13 BST 2013
+   difficulty target (nBits): 545259519
+   nonce: 3
+
+</system-err>
+  </testcase>
+  <testcase time="2.965" classname="com.google.digitalcoin.core.WalletTest" name="ageMattersDuringSelection"/>
+  <testcase time="1.671" classname="com.google.digitalcoin.core.WalletTest" name="respectMaxStandardSize"/>
+  <testcase time="2.326" classname="com.google.digitalcoin.core.WalletTest" name="bounce"/>
+</testsuite>

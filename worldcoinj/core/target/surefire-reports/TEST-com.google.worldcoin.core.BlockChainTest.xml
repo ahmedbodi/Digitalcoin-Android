@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="2.104" errors="1" skipped="0" tests="9" name="com.google.digitalcoin.core.BlockChainTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.0-b12"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ahmedbodi/workspace/digitalcoin-wallet/digitalcoinj"/>
+    <property name="java.runtime.version" value="1.6.0_27-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="3.2.0-4-686-pae"/>
+    <property name="user.home" value="/home/ahmedbodi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="ahmedbodi"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.067" classname="com.google.digitalcoin.core.BlockChainTest" name="testBasicChaining">
+    <error message="Hash is higher than target: 33004af7b70f4ffd5224b96989567022898f3712e86b28f4acf74b22b6cfc74b vs 7fff80000000000000000000000000000000000000000000000000000" type="com.google.digitalcoin.core.VerificationException">com.google.digitalcoin.core.VerificationException: Hash is higher than target: 33004af7b70f4ffd5224b96989567022898f3712e86b28f4acf74b22b6cfc74b vs 7fff80000000000000000000000000000000000000000000000000000
+	at com.google.digitalcoin.core.Block.checkProofOfWork(Block.java:625)
+	at com.google.digitalcoin.core.Block.verifyHeader(Block.java:746)
+	at com.google.digitalcoin.core.BlockChainTest.getBlock1(BlockChainTest.java:363)
+	at com.google.digitalcoin.core.BlockChainTest.testBasicChaining(BlockChainTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</error>
+    <system-err>11:15:36 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+   time: [1296688602] Wed Feb 02 23:16:42 GMT 2011
+   difficulty target (nBits): 487063544
+   nonce: 384568319
+
+11:15:36 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 34bc70734305ee2f4c80963445227a14eb931df2ea77034a21ba84f0f66fe6f0
+   time: [1381054453] Sun Oct 06 11:14:13 BST 2013
+   difficulty target (nBits): 545259519
+   nonce: 3
+
+</system-err>
+  </testcase>
+  <testcase time="0.146" classname="com.google.digitalcoin.core.BlockChainTest" name="receiveCoins"/>
+  <testcase time="0.338" classname="com.google.digitalcoin.core.BlockChainTest" name="merkleRoots"/>
+  <testcase time="0.131" classname="com.google.digitalcoin.core.BlockChainTest" name="unconnectedBlocks"/>
+  <testcase time="0.355" classname="com.google.digitalcoin.core.BlockChainTest" name="difficultyTransitions">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.fail(Assert.java:98)
+	at com.google.digitalcoin.core.BlockChainTest.difficultyTransitions(BlockChainTest.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</failure>
+    <system-err>11:15:37 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
+   time: [1296688602] Wed Feb 02 23:16:42 GMT 2011
+   difficulty target (nBits): 487063544
+   nonce: 384568319
+
+11:15:37 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 34bc70734305ee2f4c80963445227a14eb931df2ea77034a21ba84f0f66fe6f0
+   time: [1381054453] Sun Oct 06 11:14:13 BST 2013
+   difficulty target (nBits): 545259519
+   nonce: 3
+
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: 4ff2eeff2b52b604dd56615f6e2c8fe833f0a08e4c20daab84492242ad1a9e08
+11:15:37 10 Wallet.processTxFromBestChain:   new tx 4ff2eeff2b52b604dd56615f6e2c8fe833f0a08e4c20daab84492242ad1a9e08 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 50.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: da66a44c1d8f852aadb1a2c832e6135290dbd9475bf7d037363f2466349c93d7
+11:15:37 10 Wallet.processTxFromBestChain:   new tx da66a44c1d8f852aadb1a2c832e6135290dbd9475bf7d037363f2466349c93d7 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 100.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: 7307b85035d1bec689d34690e36dd57c5a57fef0740cab91d094a50eb68659e7
+11:15:37 10 Wallet.processTxFromBestChain:   new tx 7307b85035d1bec689d34690e36dd57c5a57fef0740cab91d094a50eb68659e7 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 150.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: b52867ca8ab2ee8311ed1c8399ed085af93f77aa0e85345926d6f2d135f25a41
+11:15:37 10 Wallet.processTxFromBestChain:   new tx b52867ca8ab2ee8311ed1c8399ed085af93f77aa0e85345926d6f2d135f25a41 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 200.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: 19ed618e19939516d7fbbe2f7c3b95da3e0ae86154b6945792f2df0bc7e2959e
+11:15:37 10 Wallet.processTxFromBestChain:   new tx 19ed618e19939516d7fbbe2f7c3b95da3e0ae86154b6945792f2df0bc7e2959e -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 250.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: b7649555be0341c58c50d3e53d07d80c2ca6170fb22c293f5a13ea52ad152ab7
+11:15:37 10 Wallet.processTxFromBestChain:   new tx b7649555be0341c58c50d3e53d07d80c2ca6170fb22c293f5a13ea52ad152ab7 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 300.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: c8e8a38e9d56ec11d6a2f61beeff59d4d0e933205bfd096da226e093bca9c661
+11:15:37 10 Wallet.processTxFromBestChain:   new tx c8e8a38e9d56ec11d6a2f61beeff59d4d0e933205bfd096da226e093bca9c661 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 350.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: f57a14f9d8afa76ca7690e8d894ab732a547e621666c2307428ec4d54f4153c7
+11:15:37 10 Wallet.processTxFromBestChain:   new tx f57a14f9d8afa76ca7690e8d894ab732a547e621666c2307428ec4d54f4153c7 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 400.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: 17cc2fd9f92b8250c1333ef75d4175edbc36960a895ed7e466a31397973868f6
+11:15:37 10 Wallet.processTxFromBestChain:   new tx 17cc2fd9f92b8250c1333ef75d4175edbc36960a895ed7e466a31397973868f6 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 450.00
+11:15:37 10 Wallet.receive: Received tx  for 50.00 WDC: 2dd42a9e8a383246528df439d5ec3ea7adca47d1b2c35e42419f8f296b8cbeb5
+11:15:37 10 Wallet.processTxFromBestChain:   new tx 2dd42a9e8a383246528df439d5ec3ea7adca47d1b2c35e42419f8f296b8cbeb5 -&gt;unspent
+11:15:37 10 Wallet.receive: Balance is now: 500.00
+</system-err>
+  </testcase>
+  <testcase time="0.113" classname="com.google.digitalcoin.core.BlockChainTest" name="duplicates"/>
+  <testcase time="0.221" classname="com.google.digitalcoin.core.BlockChainTest" name="intraBlockDependencies"/>
+  <testcase time="0.647" classname="com.google.digitalcoin.core.BlockChainTest" name="coinbaseTransactionAvailability"/>
+  <testcase time="0.077" classname="com.google.digitalcoin.core.BlockChainTest" name="estimatedBlockTime"/>
+</testsuite>

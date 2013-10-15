@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="8.85" errors="0" skipped="0" tests="2" name="com.google.digitalcoin.core.FullPrunedBlockChainTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.0-b12"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ahmedbodi/workspace/digitalcoin-wallet/digitalcoinj"/>
+    <property name="java.runtime.version" value="1.6.0_27-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386:/usr/lib/jvm/java-6-openjdk-i386/jre/../lib/i386:/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="3.2.0-4-686-pae"/>
+    <property name="user.home" value="/home/ahmedbodi"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="ahmedbodi"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-6-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-6-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="8.396" classname="com.google.digitalcoin.core.FullPrunedBlockChainTest" name="testGeneratedChain">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.fail(Assert.java:98)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</failure>
+    <system-err>11:15:14 10 AbstractBlockChain.&lt;init&gt;: chain head is at height 0:
+v1 block: 
+   previous block: 0000000000000000000000000000000000000000000000000000000000000000
+   merkle root: 34bc70734305ee2f4c80963445227a14eb931df2ea77034a21ba84f0f66fe6f0
+   time: [1381054453] Sun Oct 06 11:14:13 BST 2013
+   difficulty target (nBits): 545259519
+   nonce: 3
+
+11:15:18 10 AbstractBlockChain.connectBlock: Block forks the chain at height 6/block aa3f3094e0dda151154f01307c85db5557313b3c7ffbdb096798352ab827ac35, but it did not cause a reorganize:
+1d67114ead3c25203f9293490e306d5630f4dc5c60c50bca94af7b3e395054f0
+11:15:18 10 AbstractBlockChain.connectBlock: Block forks the chain at height 6/block aa3f3094e0dda151154f01307c85db5557313b3c7ffbdb096798352ab827ac35, but it did not cause a reorganize:
+1d67114ead3c25203f9293490e306d5630f4dc5c60c50bca94af7b3e395054f0
+11:15:18 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:18 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 6
+11:15:18 10 AbstractBlockChain.handleNewBestChain: Old chain head: 79082895410b61e90571a11dd889ea0fcccc3834bd947d566d6819edf7f873fe
+11:15:18 10 AbstractBlockChain.handleNewBestChain: New chain head: 667be4d0dfacd3c3f4d34567e93aac648096ba8620060283d101da46d9626fdb
+11:15:18 10 AbstractBlockChain.handleNewBestChain: Split at block: aa3f3094e0dda151154f01307c85db5557313b3c7ffbdb096798352ab827ac35
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 6/block aa3f3094e0dda151154f01307c85db5557313b3c7ffbdb096798352ab827ac35, but it did not cause a reorganize:
+8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 6
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 667be4d0dfacd3c3f4d34567e93aac648096ba8620060283d101da46d9626fdb
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: 87afcd044cf285164ad5587d79ed888e6d440b2ed31be360ba5f36fe3d235b05
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: aa3f3094e0dda151154f01307c85db5557313b3c7ffbdb096798352ab827ac35
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 8/block 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd, but it did not cause a reorganize:
+f68cf13c3df6d9f8dd264d40f15a4cabcbeb3b205ef189f30c821f349125d47b
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 8
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 87afcd044cf285164ad5587d79ed888e6d440b2ed31be360ba5f36fe3d235b05
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: 31c0f1e07caa77f027509e88401ed0073832ba18025294493217be8a3eb323d0
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 8/block 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd, but it did not cause a reorganize:
+cf1d48bd442cc5a5b18b43162d4dc397625f812a498468e1297ad63ad832e55a
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 8
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 87afcd044cf285164ad5587d79ed888e6d440b2ed31be360ba5f36fe3d235b05
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: f1077da1d900d4f42ff80688701a47ec162d3565107fefbee18ffba82ca8079f
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd
+11:15:19 10 AbstractBlockChain.add: Block does not connect: 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4 prev 43be55a9d1d6520daefa8f7b61ba32068bbe823c2f12e864242c92e3ff759665
+11:15:19 10 AbstractBlockChain.add: Block does not connect: fc00993ffdd10417bea799c4563b4350021965707ac2e18a4d10150f9771e6cb prev 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 8/block 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd, but it did not cause a reorganize:
+43be55a9d1d6520daefa8f7b61ba32068bbe823c2f12e864242c92e3ff759665
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 8
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 87afcd044cf285164ad5587d79ed888e6d440b2ed31be360ba5f36fe3d235b05
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: 8980cdc676ee8f9c1962330951a47509664030309dd68a722289640c5c8b92cd
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 10/block 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4, but it did not cause a reorganize:
+fc00993ffdd10417bea799c4563b4350021965707ac2e18a4d10150f9771e6cb
+11:15:19 10 AbstractBlockChain.tryConnectingOrphans: Connected 1 orphan blocks.
+11:15:19 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block had too many Signature Operations
+	at com.google.digitalcoin.core.Block.checkSigOps(Block.java:649)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:767)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:19 10 AbstractBlockChain.add: 7d67dac410e0670ec842d9e389b487d0f3a69ac04402b8831a0de3fa749372b6
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 10/block 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4, but it did not cause a reorganize:
+fb27d7c68799118d70510754ac5d402f57a9475e2aac09d431bfd08c0fe63454
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 10
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 3f64e6a435a1232eb8bbef052f1b26f894faa251d3d0fb3c0f4cf4f864f76e2c
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: 8da8e688e4c83741ec0fd0f7043c673c5b795f0ee580d9deef57df770bcfc6e6
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4
+11:15:19 10 AbstractBlockChain.connectBlock: Block forks the chain at height 10/block 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4, but it did not cause a reorganize:
+cab5e2d02363b62701fcbe9b190b0ca3e0bbe83b6ddabd129c476df85f8377d3
+11:15:19 10 AbstractBlockChain.connectBlock: Block is causing a re-organize
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Re-organize after split at height 10
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Old chain head: 3f64e6a435a1232eb8bbef052f1b26f894faa251d3d0fb3c0f4cf4f864f76e2c
+11:15:19 10 AbstractBlockChain.handleNewBestChain: New chain head: 567318ce75b21752b438c9e0c5fa43d1569105863b35427b5cfe6e72375de29a
+11:15:19 10 AbstractBlockChain.handleNewBestChain: Split at block: 44ced552f1843e8783dba95ff3b15fdddf981b40cf556fcabcd9d7f53e3e7bd4
+11:15:21 10 AbstractBlockChain.add: 20 blocks per second
+11:15:21 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block larger than MAX_BLOCK_SIZE
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:764)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:21 10 AbstractBlockChain.add: b1ca4c09c01880dded26f7b836b2565382c9fc25ddd4d3c0fd4539e3deebbff4
+11:15:21 10 AbstractBlockChain.add: Block does not connect: 84bbe3cc484bde57f31369b5e89b354b0d1aa1f27b15c4f3c44c2fd54392b2b8 prev b1ca4c09c01880dded26f7b836b2565382c9fc25ddd4d3c0fd4539e3deebbff4
+11:15:21 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Coinbase script size out of range
+	at com.google.digitalcoin.core.Transaction.verify(Transaction.java:1049)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:769)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:21 10 AbstractBlockChain.add: 9d60ce8b9864699d1ce944b5476581332a969a4dfd838003c062efc9890a6bcf
+11:15:21 10 AbstractBlockChain.add: Block does not connect: 2fdacf3876ab1bf9cbbf248a8cc598e959d62200ee70831f07fbe9c6affe6c0d prev 9d60ce8b9864699d1ce944b5476581332a969a4dfd838003c062efc9890a6bcf
+11:15:21 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Coinbase script size out of range
+	at com.google.digitalcoin.core.Transaction.verify(Transaction.java:1049)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:769)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:21 10 AbstractBlockChain.add: fc478373a11f26c6c80d71de33fbccac95b5e1b32a3405cbb55c6587be527bb3
+11:15:21 10 AbstractBlockChain.add: Block does not connect: ac7f651fb263513325e9fc4cb9e9c4c64d170b37cb206013186b9c9879687a34 prev fc478373a11f26c6c80d71de33fbccac95b5e1b32a3405cbb55c6587be527bb3
+11:15:21 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block had too many Signature Operations
+	at com.google.digitalcoin.core.Block.checkSigOps(Block.java:649)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:767)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:21 10 AbstractBlockChain.add: d53964f6b1530ad057e08b2857e2f7893115cd50d4d5cd29b9f9b5d88c072497
+11:15:21 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block had too many Signature Operations
+	at com.google.digitalcoin.core.Block.checkSigOps(Block.java:649)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:767)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:21 10 AbstractBlockChain.add: b956c4fb50f65746a0cab50067369db6e18be1f228605964e64bb8289b4dcf96
+11:15:22 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block had too many Signature Operations
+	at com.google.digitalcoin.core.Block.checkSigOps(Block.java:649)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:767)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:22 10 AbstractBlockChain.add: 975a43d9f9439b06869ea0e0a97c28fdf886eaf7c9810b941a59a15329c7d940
+11:15:22 10 AbstractBlockChain.add: 5 blocks per second
+11:15:23 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: First tx is not coinbase
+	at com.google.digitalcoin.core.Block.checkTransactions(Block.java:723)
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:765)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:23 10 AbstractBlockChain.add: 9a433313e49e4f3fbbe1338ae0f078b7dfdc718e8946a6d2939cc3d5ca4c2c56
+11:15:23 10 AbstractBlockChain.add: Failed to verify block: 
+com.google.digitalcoin.core.VerificationException: Block had no transactions
+	at com.google.digitalcoin.core.Block.verifyTransactions(Block.java:761)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:335)
+	at com.google.digitalcoin.core.AbstractBlockChain.add(AbstractBlockChain.java:213)
+	at com.google.digitalcoin.core.FullPrunedBlockChainTest.testGeneratedChain(FullPrunedBlockChainTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+11:15:23 10 AbstractBlockChain.add: 384736ac0b5440dbf6e16c12f79ee38d646052948133be738b59f0892887e963
+11:15:23 10 FullPrunedBlockChainTest.testGeneratedChain: Block didn&apos;t match connects flag on block b47
+</system-err>
+  </testcase>
+  <testcase time="0.451" classname="com.google.digitalcoin.core.FullPrunedBlockChainTest" name="testFinalizedBlocks"/>
+</testsuite>
